@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Orbitron', sans-serif;
+    background: url('assets/themes/normal.png') no-repeat center center/cover;
+}
+
+/* Start Screen */
+#start-screen {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-logo {
+    width: 80%;
+    max-width: 500px;
+}
+
+#created-by {
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+}
+
+/* Main Menu */
+#main-menu {
+    text-align: center;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}

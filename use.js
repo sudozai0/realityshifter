@@ -1,0 +1,1 @@
+playSound("shot"); // Play gunshot sound
